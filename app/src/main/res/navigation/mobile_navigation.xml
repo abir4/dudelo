@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dudelo.ui.CartFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_catagory"
+        android:name="com.example.dudelo.ui.CatagoryFragment"
+        android:label="Catagory"
+        tools:layout="@layout/fragment_catagory" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.example.dudelo.ui.OrderFragment"
+        android:label="Order"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.dudelo.ui.LogOutFragment"
+        android:label="LogOut"
+        tools:layout="@layout/fragment_log_out" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.dudelo.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

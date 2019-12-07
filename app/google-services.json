@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "422829106834",
+    "firebase_url": "https://dudelo-1f5e7.firebaseio.com",
+    "project_id": "dudelo-1f5e7",
+    "storage_bucket": "dudelo-1f5e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422829106834:android:de1f2877010926c564a84b",
+        "android_client_info": {
+          "package_name": "com.example.dudelo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422829106834-m911d3ht9i0449imuem465mv4epa76ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dudelo",
+            "certificate_hash": "7e82f448aa725389f8dd6bf0ce8759d7858b9d4a"
+          }
+        },
+        {
+          "client_id": "422829106834-iges7q84npu4k3b6u6pr1fo7jotk5anp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dudelo",
+            "certificate_hash": "e524869abbc4b80349dd7ce1bfa9319dec34fb10"
+          }
+        },
+        {
+          "client_id": "422829106834-sif3d0v5822c9tnfrbgssb8i2q3kqfmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXBolK1dl2Z0-paNIxdOkHpqd3yKWh-HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422829106834-sif3d0v5822c9tnfrbgssb8i2q3kqfmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

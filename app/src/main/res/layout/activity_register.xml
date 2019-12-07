@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearRegisterId"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/loginDudloo"
+        android:src="@drawable/shoponlineimage"
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+
+    </ImageView>
+
+    <EditText
+        android:textAlignment="center"
+        android:background="@drawable/input_design"
+        android:hint="Enter a Name "
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:id="@+id/registerNameEdit"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:layout_width="250dp"
+        android:layout_height="60dp">
+
+    </EditText>
+    <EditText
+        android:textAlignment="center"
+        android:background="@drawable/input_design"
+        android:hint="Enter a Phone"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:id="@+id/registerPhoneEdit"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:layout_width="250dp"
+        android:layout_height="60dp">
+
+    </EditText>
+    <EditText
+        android:textAlignment="center"
+        android:background="@drawable/input_design"
+        android:hint="Enter a Password"
+        android:layout_marginTop="30dp"
+        android:inputType="numberPassword"
+        android:id="@+id/registerEdutPasssId"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:layout_width="250dp"
+        android:layout_height="60dp">
+
+    </EditText>
+
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="40dp"
+        android:id="@+id/registerCreateAccountButtonId"
+        android:text="Create An Account"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

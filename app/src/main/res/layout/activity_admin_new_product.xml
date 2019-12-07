@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AdminNewProductActivity">
+
+
+    <ViewFlipper
+        android:id="@+id/viewFlipperId"
+        android:layout_width="400dp"
+        android:layout_height="130dp">
+
+    </ViewFlipper>
+
+
+    <TextView
+        android:textColor="#1933AC"
+        android:layout_below="@+id/viewFlipperId"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:id="@+id/catagoryElecteonicIdTextId"
+        android:text="Electronic Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/linar1_catagory_layout"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/catagoryElecteonicIdTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/watch"
+            android:id="@+id/watchId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+        <ImageView
+            android:src="@drawable/xaimifacesoni"
+            android:id="@+id/xiamoifaceId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+        <ImageView
+            android:src="@drawable/wireless"
+            android:id="@+id/wirelessblutothIdId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+ <ImageView
+            android:src="@drawable/portablemini"
+            android:id="@+id/portableminiId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/linar2_catagory_layout"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/linar1_catagory_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/portable"
+            android:id="@+id/portabeBlutoothId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+        <ImageView
+            android:src="@drawable/fitnesvand"
+            android:id="@+id/fitnessBandId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+        <ImageView
+            android:src="@drawable/excelvan"
+            android:id="@+id/exelevenId"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+        <ImageView
+            android:src="@drawable/usbminiportable"
+            android:id="@+id/usbMiniIdPortable"
+            android:layout_width="80dp"
+            android:layout_height="60dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:id="@+id/productRecyName"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/productRecyName"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:id="@+id/recycleProductImage"/>
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/recycleProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:id="@+id/productRecyDescription"/>
+
+
+        <TextView
+
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/productRecyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Price"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:id="@+id/productRecyPrice"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
